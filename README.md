@@ -22,6 +22,7 @@ By deploying and interacting with this contract on the Ethereum blockchain, you 
 ## Getting Started
 
 ### Executing program
+
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., [ANY NAME].sol). Copy and paste the following code into the file:
@@ -49,6 +50,7 @@ pragma solidity 0.8.18;
 }   
 ```
 ### How to Us
+
 - Compile the contract: First is tick the box of Auto Compiler then Click the Complie Button.
 - Deploy the contract: below the Contract press Deploy then check for "Deployed Contracts" below the "Transactions Recorded" then press Greater Than Icon( > )
 - Interact with the contract: Copy and Paste the Account(Below the Environment) to the Address on mint(add) or burn button(subtract) values of your balances after doing that you can check it out by pressing the balances button.
