@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+    contract GAMMA {
+        string public name = "GAMMA";
+        string public abbrv = "GAM";
+        uint TotalSupply = 0;
+
+        mapping(address => uint) public balances;
+
+    function mint(address _address, uint _values) public{
+        TotalSupply += _values;
+        balances[_address] += _values;
+        }
+
+    function burn(address _address, uint _values) public{
+        if (balances[_address] >= _values)
+        TotalSupply -= _values;
+        balances[_address] -= _values;
+    }
+}   
